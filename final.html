@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See 'N Say Story Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>See 'N Say Story Maker</h1>
+    </header>
+
+    <main>
+        <section class="desc">
+            <article>
+                <p>The See 'N Say Story Maker is an interactive tool that encourages the creation of unique and engaging stories with a simple click. This tool brings a modern interpretation to the classic See 'N Say toy, presenting an opportunity to mix and match various words, cultivating your own imaginative phrases.</p>
+                <p>With the integration of five buttons representing different word categories - nouns, verbs, adjectives, secondary nouns, and places, our tool allows for the generation of random words from each selected category. Each click introduces a new word to the story, curating a creative and entertaining blend.</p>
+                <p>The selected words will be displayed in the phrase output section, forming sentences that can range from humorous to adventurous. The "Speak" button can be used to audibly hear the generated phrase, thanks to integrated text-to-speech technology.</p>
+                <p>The See 'N Say Story Maker offers limitless potential for storytelling and linguistic play. Whether you're looking to stimulate your creativity, entertain friends, or simply indulge in some fun, this interactive tool is sure to infuse your storytelling sessions with laughter and creativity.</p>
+                <span class="note">Note: Please press the reset button before starting a new story or using the surprise button.</span>
+            </article>
+        </section>
+
+        <section id="phraseOutput">
+            <span id="nounOutput">____</span> 
+            <span id="verbOutput">____</span> 
+            <span id="adjectiveOutput">____</span> 
+            <span id="secondNounOutput">____</span> 
+            <span id="placeOutput">____</span>
+        </section>
+
+        <section id="buttonsContainer">
+            <button id="nounButton" class="storyselector">Noun</button>
+            <button id="verbButton" class="storyselector">Verb</button>
+            <button id="adjectiveButton" class="storyselector">Adjective</button>
+            <button id="secondNounButton" class="storyselector">Noun 2</button>
+            <button id="placeButton" class="storyselector">Place</button>
+            <button id="speakButton" class="resultprovider">Speak</button>
+            <button id="surprise" class="random">Surprise</button>
+            <button id="resetButton" onclick="location.reload()">Reset</button>
+        </section>
+
+        <section class="imageContainer">
+            <img src="images/first.png" alt="Story Maker Image 1" class="firstimg">
+            <img src="images/second.png" alt="Story Maker Image 2" class="secondimg">
+            <img src="images/third.png" alt="Story Maker Image 3" class="thirdimg">
+            <img src="images/fourth.png" alt="Story Maker Image 4" class="fourthimg">
+            <img src="images/fifth.png" alt="Story Maker Image 5" class="fifthimg">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 See 'N Say Story Maker. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
